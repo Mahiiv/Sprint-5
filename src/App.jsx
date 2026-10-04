@@ -31,7 +31,7 @@ function App() {
   function handleAddTask() {
 
     if (newTaskText.trim() === "") {
-      alert("bro type something first");
+      alert("Please enter a task first");
       return;
     }
 
